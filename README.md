@@ -49,6 +49,11 @@ We appreciate it if you have latest research about this topic and report it to o
 | [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://proceedings.mlr.press/v229/zhang23h.html) | CoRL | 2023 | MIT |
 | [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://arxiv.org/abs/2401.14554) | arXiv | 2024 | MIT |
 
+### Language Model for Autonomous Driving
+| Publication | Jour./Conf. | Year | Affiliation |
+|-------------|-------------|------|-------------|
+| [Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10458341) | IEEE T-IV | 2023 | NTU |
+
 ### Survey of Surveys
 | Publication | Jour./Conf. | Year | Affiliation |
 |-------------|-------------|------|-------------|
