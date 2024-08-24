@@ -1,8 +1,10 @@
 # Multi-Agent Reinforcement Learning for Autonomous Driving
 
-Hi there, welcome to our repository. Here is all you need to learn, research and conduct experiments the **Multi-Agent Reinforcement Learning (MARL) for Autonomous Driving**. For a more comprehensive survey, please look at:
-> [**Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey**](https://arxiv.org/abs/2408.09675)
-> [Ruiqi Zhang<sup>1,2</sup>](https://ruiqizhang99.github.io), [Jing Hou<sup>1</sup>](https://scholar.google.com/citations?user=8mO6YIMAAAAJ), [Florian Walter<sup>3</sup>](https://scholar.google.com/citations?user=Z3QCbaUAAAAJ), [Shangding Gu<sup>2,4</sup>](https://scholar.google.com/citations?user=E1GCDXUAAAAJ), [Jiayi Guan<sup>1</sup>](https://scholar.google.com/citations?user=PbNNo9cAAAAJ), [Florian Röhrbein<sup>5</sup>](https://scholar.google.com/citations?user=IEOJBbAAAAAJ), [Yali Du<sup>6</sup>](https://scholar.google.com/citations?user=WMlPkOoAAAAJ), [Panpan Cai<sup>7</sup>](https://cindycia.github.io/), [Guang Chen<sup>1,4,*</sup>](https://ispc-group.github.io/), [Alois Knoll<sup>4</sup>](https://scholar.google.com/citations?user=-CA8QgwAAAAJ)
+Hi there, welcome to our repository.  
+Here is all you need to learn the **Multi-Agent Reinforcement Learning (MARL) for Autonomous Driving**.  
+For a more comprehensive survey, please look at:
+> [**Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey**](https://arxiv.org/abs/2408.09675)  
+> [Ruiqi Zhang<sup>1,2</sup>](https://ruiqizhang99.github.io), [Jing Hou<sup>1</sup>](https://scholar.google.com/citations?user=8mO6YIMAAAAJ), [Florian Walter<sup>3</sup>](https://scholar.google.com/citations?user=Z3QCbaUAAAAJ), [Shangding Gu<sup>2,4</sup>](https://scholar.google.com/citations?user=E1GCDXUAAAAJ), [Jiayi Guan<sup>1</sup>](https://scholar.google.com/citations?user=PbNNo9cAAAAJ), [Florian Röhrbein<sup>5</sup>](https://scholar.google.com/citations?user=IEOJBbAAAAAJ), [Yali Du<sup>6</sup>](https://scholar.google.com/citations?user=WMlPkOoAAAAJ), [Panpan Cai<sup>7</sup>](https://cindycia.github.io/), [Guang Chen<sup>1,4,*</sup>](https://ispc-group.github.io/), [Alois Knoll<sup>4</sup>](https://scholar.google.com/citations?user=-CA8QgwAAAAJ)  
 > <sup>1</sup>Tongji University; <sup>2</sup>University of California, Berkeley; <sup>3</sup>University of Technology Nuremberg; <sup>4</sup>Technical University of Munich; <sup>5</sup>Chemnitz University of Technology; <sup>6</sup>King's College London; <sup>7</sup>Shanghai Jiao Tong University
 
 
@@ -10,24 +12,24 @@ Hi there, welcome to our repository. Here is all you need to learn, research and
 
 ## 1 Open-Access Learning Materials
 **Books**
-> [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) (by Richard Sutton et. al, MIT press)
-> [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8) (by Shengbo Eben Li, Springer)
-> [Autonomous Driving (Technical, Legal and Social Aspects)](https://link.springer.com/book/10.1007/978-3-662-48847-8) (by Markus Maurer et. al, Springer)
+> [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) (by Richard Sutton et. al, MIT press)  
+> [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8) (by Shengbo Eben Li, Springer)  
+> [Autonomous Driving (Technical, Legal and Social Aspects)](https://link.springer.com/book/10.1007/978-3-662-48847-8) (by Markus Maurer et. al, Springer)  
 
 
 **Courses** 
-> [UC Berkeley, CS285: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=SupFHGbytvA&list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps) (by Sergey Levine)
-> [Stanford, CS 234: Reinforcement Learning](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u) (by Emma Brunskill)
-> [Introduction to Reinforcement Learning (Chinese Version)](https://www.youtube.com/watch?v=IkEF4LpH5Ys&list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD) (by Bolei Zhou)
-> [Multi-Agent Artificial Intelligence [Bilibili]](https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=cd04812e2c6ae50416c20981d08acf0a) (by Jun Wang)
-> [Self-Driving Cars [Course Syllabus]](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/) [[Video]](https://www.youtube.com/watch?v=_q4WUxgwDeg&list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr) (by Andreas Geiger)
+> [UC Berkeley, CS285: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=SupFHGbytvA&list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps) (by Sergey Levine)  
+> [Stanford, CS 234: Reinforcement Learning](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u) (by Emma Brunskill)  
+> [Introduction to Reinforcement Learning (Chinese Version)](https://www.youtube.com/watch?v=IkEF4LpH5Ys&list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD) (by Bolei Zhou)  
+> [Multi-Agent Artificial Intelligence [Bilibili]](https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=cd04812e2c6ae50416c20981d08acf0a) (by Jun Wang)  
+> [Self-Driving Cars [Course Syllabus]](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/) [[Video]](https://www.youtube.com/watch?v=_q4WUxgwDeg&list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr) (by Andreas Geiger)  
 
 **Talks**
-> [MicroSoft Reinforcement Learning Day: Multi-Agent Reinforcement Learning](https://www.youtube.com/watch?v=Yd6HNZnqjis&list=PLNZMKGYv14qLCMfRuOJOrvgcKrqyPk6eB)
-> [Berkeley Simons Institute: Multi-Agent Reinforcement Learning [Part I]]()[[Part II]]()
-> [Safe Reinforcement Learning via Statistical Model Predictive Shielding, RSS 2021](https://www.youtube.com/watch?v=_czP3eqTjaY)
-> [Safety in Reinforcement Learning by Leveraging Offline Data, IEEE MFI 2022](https://www.youtube.com/watch?v=uvXb0P1knRw)
-> [Learning Robust Policies for Self-Driving, ECCV 2022](https://www.youtube.com/watch?v=rm-1sPQV4zg)
+> [MicroSoft Reinforcement Learning Day: Multi-Agent Reinforcement Learning](https://www.youtube.com/watch?v=Yd6HNZnqjis&list=PLNZMKGYv14qLCMfRuOJOrvgcKrqyPk6eB)  
+> [Berkeley Simons Institute: Multi-Agent Reinforcement Learning [Part I]](https://www.youtube.com/watch?v=RCu-nU4_TQM&t=5s)[[Part II]](https://www.youtube.com/watch?v=RWBF9gG2uz0&t=30s)  
+> [Safe Reinforcement Learning via Statistical Model Predictive Shielding, RSS 2021](https://www.youtube.com/watch?v=_czP3eqTjaY)  
+> [Safety in Reinforcement Learning by Leveraging Offline Data, IEEE MFI 2022](https://www.youtube.com/watch?v=uvXb0P1knRw)  
+> [Learning Robust Policies for Self-Driving, ECCV 2022](https://www.youtube.com/watch?v=rm-1sPQV4zg)  
 
 
 ## 2 Benchmarks
@@ -60,20 +62,19 @@ Hi there, welcome to our repository. Here is all you need to learn, research and
 |[**MACAD**](https://github.com/praveen-palanisamy/macad-gym)| 2020 | [IJCNN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9207663)| - | MicroSoft Research
 |[**ISAAC Sim**](https://developer.nvidia.com/isaac/sim) | 2020 | - | [Documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/index.html) | NVIDIA Research
 |[**ISAAC Lab**](https://github.com/isaac-sim/IsaacLab) | 2024 | [RA-L](https://ieeexplore.ieee.org/abstract/document/10107764) | [Documentation](https://isaac-sim.github.io/IsaacLab/index.html)| NVIDIA Research
-|[**Vista**](https://github.com/vista-simulator/vista) | 2020 |  [RA-L v1.0](https://ieeexplore.ieee.org/abstract/document/8957584) [ICRA v2.0](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9812276) | [Documentation](https://vista.csail.mit.edu/) | MIT CSAIL
+|[**Vista**](https://github.com/vista-simulator/vista) | 2020 |  [RA-L](https://ieeexplore.ieee.org/abstract/document/8957584) /[ICRA](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9812276) | [Documentation](https://vista.csail.mit.edu/) | MIT CSAIL
 
 
 ### 2.2 Datasets
-
-- [**KITTI**](https://www.cvlibs.net/datasets/kitti/) (by KIT, etc., 2013)
-- [**KITTI 360**](https://www.cvlibs.net/datasets/kitti-360/) (by KIT, etc., 2021)
-- [**Visual KITTI**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/) (by Naver Lab, 2016)
-- [**Visual KITTI 2**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/) (by Naver Lab, 2020)
-- [**nuScenes**](https://www.nuscenes.org/) (by Motional)
-- [**nuPlan**](https://www.nuscenes.org/nuplan) (by Motional)
-- [**Waymo Open Dataset**](https://waymo.com/open/) (by Waymo)
-- [**Lyft LV5**](https://github.com/cognitive-robots/lyft_prediction_dataset_tools) (by Lyft)
-- [**INTERACTION Dataset**](https://interaction-dataset.com/) (by UC Berkeley, 2019)
+> [**KITTI**](https://www.cvlibs.net/datasets/kitti/) (by KIT, etc., 2013)  
+> [**KITTI 360**](https://www.cvlibs.net/datasets/kitti-360/) (by KIT, etc., 2021)  
+> [**Visual KITTI**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/) (by Naver Lab, 2016)  
+> [**Visual KITTI 2**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/) (by Naver Lab, 2020)  
+> [**nuScenes**](https://www.nuscenes.org/) (by Motional)
+> [**nuPlan**](https://www.nuscenes.org/nuplan) (by Motional)  
+> [**Waymo Open Dataset**](https://waymo.com/open/) (by Waymo)  
+> [**Lyft LV5**](https://github.com/cognitive-robots/lyft_prediction_dataset_tools) (by Lyft)  
+> [**INTERACTION Dataset**](https://interaction-dataset.com/) (by UC Berkeley, 2019) 
 
 -----------
 *(UPDATE STILL ON THE WAY)*
