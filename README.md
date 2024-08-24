@@ -1,4 +1,4 @@
-# Multi-Agent Reinforcement Learning for Autonomous Driving
+# MARL for Autonomous Driving
 
 Hi there, welcome to our repository.  
 Here is all you need to learn the **Multi-Agent Reinforcement Learning (MARL) for Autonomous Driving**.  
