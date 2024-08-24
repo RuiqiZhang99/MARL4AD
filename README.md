@@ -1,65 +1,115 @@
 # Multi-Agent Reinforcement Learning for Autonomous Driving
-This is a source repository for Multi-Agent Reinforcement Learning for Autonomous Driving research. 
-We appreciate it if you have latest research about this topic and report it to our repo via Github request. (or via EMail: tjuzrq1109@gmail.com)
 
-## Advanced Simulator
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Metadrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9829243) | IEEE T-PAMI | 2022 | UCLA |
-| [TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios](https://ieeexplore.ieee.org/abstract/document/10160296) | ICRA | 2023 | UCLA |
-| [ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0c26a501df8fb919a0350e2df06b5d39-Abstract-Datasets_and_Benchmarks.html) | NeurIPS | 2023 | UCLA |
+Hi there, welcome to our repository. Here is all you need to learn, research and conduct experiments the **Multi-Agent Reinforcement Learning (MARL) for Autonomous Driving**. For a more comprehensive survey, please look at:
+> [**Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey**](https://arxiv.org/abs/2408.09675)
+> [Ruiqi Zhang<sup>1,2</sup>](https://ruiqizhang99.github.io), [Jing Hou<sup>1</sup>](https://scholar.google.com/citations?user=8mO6YIMAAAAJ), [Florian Walter<sup>3</sup>](https://scholar.google.com/citations?user=Z3QCbaUAAAAJ), [Shangding Gu<sup>2,4</sup>](https://scholar.google.com/citations?user=E1GCDXUAAAAJ), [Jiayi Guan<sup>1</sup>](https://scholar.google.com/citations?user=PbNNo9cAAAAJ), [Florian Röhrbein<sup>5</sup>](https://scholar.google.com/citations?user=IEOJBbAAAAAJ), [Yali Du<sup>6</sup>](https://scholar.google.com/citations?user=WMlPkOoAAAAJ), [Panpan Cai<sup>7</sup>](https://cindycia.github.io/), [Guang Chen<sup>1,4,*</sup>](https://ispc-group.github.io/), [Alois Knoll<sup>4</sup>](https://scholar.google.com/citations?user=-CA8QgwAAAAJ)
+> <sup>1</sup>Tongji University; <sup>2</sup>University of California, Berkeley; <sup>3</sup>University of Technology Nuremberg; <sup>4</sup>Technical University of Munich; <sup>5</sup>Chemnitz University of Technology; <sup>6</sup>King's College London; <sup>7</sup>Shanghai Jiao Tong University
 
-## Centralized Training and Decentralized Execution (CTDE) Scheme
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real](https://ieeexplore.ieee.org/abstract/document/9981319) | IROS | 2022 | ICL |
-| [Social Coordination and Altruism in Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/9905741) | IEEE T-TIS | 2022 | UFlorida |
-| [Cooperative Decision-Making for CAVs at Unsignalized Intersections: A MARL Approach with Attention and Hierarchical Game Priors](https://www.techrxiv.org/doi/full/10.36227/techrxiv.22817417.v1) | techRxiv | 2022 | TJU |
-| [Efficient Policy Generation in Multi-agent Systems via Hypergraph Neural Network](https://link.springer.com/chapter/10.1007/978-3-031-30108-7_19) | ICONIP | 2023 | CAS |
-| [Multi-agent Decision-making at Unsignalized Intersections with Reinforcement Learning from Demonstrations](https://ieeexplore.ieee.org/abstract/document/10186792) | IEEE IV | 2023 | TJU |
 
-## Decentralized Training and Decentralized Execution (DTDE) Scheme
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Social Attention for Autonomous Decision-Making in Dense Traffic](https://arxiv.org/pdf/1911.12250.pdf) | arXiv | 2019 | Renault |
-| [Learning to Simulate Self-driven Particles System with Coordinated Policy Optimization](https://proceedings.neurips.cc/paper/2021/hash/594ca7adb3277c51a998252e2d4c906e-Abstract.html) | NeurIPS | 2021 | UCLA |
-| [PIPO: Policy Optimization with Permutation-Invariant Constraint for Distributed Multi-Robot Navigation](https://ieeexplore.ieee.org/abstract/document/9913862) | IEEE MFI | 2022 | TJU |
-| [Learning Observation-Based Certifiable Safe Policy for Decentralized Multi-Robot Navigation](https://ieeexplore.ieee.org/abstract/document/9811950) | ICRA | 2022 | ZJU |
-| [Socially-attentive policy optimization in multi-agent self-driving system](https://proceedings.mlr.press/v205/dai23a.html) | CoRL | 2023 | BIT |
-| [TraCo: Learning Virtual Traffic Coordinator for Cooperation with Multi-Agent Reinforcement Learning](https://proceedings.mlr.press/v229/liu23f.html) | CoRL | 2023 | ZJU |
-| [Constrained Multi-Agent Reinforcement Learning Policies for Cooperative Intersection Navigation and Traffic Compliance](https://ieeexplore.ieee.org/abstract/document/10422440) | ITSC | 2023 | ICL |
+## 0 Glance at the History
 
-## Inspiring Works
-### Offline DRL & MADRL for Autonomous Driving
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Driving by Dreaming: Offline Model-Based Reinforcement Learning for Autonomous Vehicles](https://www.ri.cmu.edu/app/uploads/2022/08/thesis_final.pdf) | Thesis | 2022 | CMU |
-| [Offline Pre-trained Multi-agent Decision Transformer](https://link.springer.com/article/10.1007/s11633-022-1383-7) | MIR | 2023 | CAS |
+## 1 Open-Access Learning Materials
+**Books**
+> [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) (by Richard Sutton et. al, MIT press)
+> [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8) (by Shengbo Eben Li, Springer)
+> [Autonomous Driving (Technical, Legal and Social Aspects)](https://link.springer.com/book/10.1007/978-3-662-48847-8) (by Markus Maurer et. al, Springer)
 
-### Trust-Worth and Safe DRL for MAS
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Learning Safe Multi-agent Control with Decentralized Neural Barrier Certificates](https://openreview.net/forum?id=P6_q1BRxY8Q) | ICLR | 2021 | MIT |
-| [Multi-agent Constrained Policy Optimization](https://arxiv.org/abs/2110.02793) | arXiv | 2021 | TUM |
-| [Multi-Agent Motion Planning From Signal Temporal Logic Specifications](https://ieeexplore.ieee.org/abstract/document/9696363)| IEEE RA-L | 2022 | MIT |
-| [Learning Large-scale Multi-agent Control with Safety Certificates](https://dspace.mit.edu/handle/1721.1/147477) | Thesis | 2022 | MIT |
-| [DeCOM: Decomposed Policy for Constrained Cooperative Multi-Agent Reinforcement Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26288) | AAAI | 2023 | SJTU |
-| [Safe multi-agent reinforcement learning for multi-robot control](https://www.sciencedirect.com/science/article/pii/S0004370223000516) | AI | 2023 | TUM |
-| [Model-based Dynamic Shielding for Safe and Efficient Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2304.06281) | AAMAS | 2023 | CMU |
-| [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://proceedings.mlr.press/v229/zhang23h.html) | CoRL | 2023 | MIT |
-| [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://arxiv.org/abs/2401.14554) | arXiv | 2024 | MIT |
 
-### Language Model for Autonomous Driving
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10458341) | IEEE T-IV | 2023 | NTU |
+**Courses** 
+> [UC Berkeley, CS285: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=SupFHGbytvA&list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps) (by Sergey Levine)
+> [Stanford, CS 234: Reinforcement Learning](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u) (by Emma Brunskill)
+> [Introduction to Reinforcement Learning (Chinese Version)](https://www.youtube.com/watch?v=IkEF4LpH5Ys&list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD) (by Bolei Zhou)
+> [Multi-Agent Artificial Intelligence [Bilibili]](https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=cd04812e2c6ae50416c20981d08acf0a) (by Jun Wang)
+> [Self-Driving Cars [Course Syllabus]](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/) [[Video]](https://www.youtube.com/watch?v=_q4WUxgwDeg&list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr) (by Andreas Geiger)
 
-### Survey of Surveys
-| Publication | Jour./Conf. | Year | Affiliation |
-|-------------|-------------|------|-------------|
-| [Multi-Agent Deep Reinforcement Learning for Autonomous Driving: A Survey]() | arXiv | 2024 | TJU |
-| [Motion planning for autonomous driving: The state of the art and future perspectives](https://ieeexplore.ieee.org/abstract/document/10122127) | IEEE T-IV | 2023 | CAS |
-| [Milestones in Autonomous Driving and Intelligent Vehicles: Survey of Surveys](https://ieeexplore.ieee.org/abstract/document/9963987) | IEEE T-IV | 2023 | CAS |
-| [Milestones in Autonomous Driving and Intelligent Vehicles—Part I: Control, Computing System Design, Communication, HD Map, Testing, and Human Behaviors](https://ieeexplore.ieee.org/document/10138317) | IEEE T-SMC | 2023 | CAS |
-| [Milestones in Autonomous Driving and Intelligent Vehicles—Part II: Perception and Planning](https://ieeexplore.ieee.org/abstract/document/9963987) | IEEE T-SMC | 2023 | CAS |
-| [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://arxiv.org/abs/2311.13714) | arXiv | 2023 | MIT |
+**Talks**
+> [MicroSoft Reinforcement Learning Day: Multi-Agent Reinforcement Learning](https://www.youtube.com/watch?v=Yd6HNZnqjis&list=PLNZMKGYv14qLCMfRuOJOrvgcKrqyPk6eB)
+> [Berkeley Simons Institute: Multi-Agent Reinforcement Learning [Part I]]()[[Part II]]()
+> [Safe Reinforcement Learning via Statistical Model Predictive Shielding, RSS 2021](https://www.youtube.com/watch?v=_czP3eqTjaY)
+> [Safety in Reinforcement Learning by Leveraging Offline Data, IEEE MFI 2022](https://www.youtube.com/watch?v=uvXb0P1knRw)
+> [Learning Robust Policies for Self-Driving, ECCV 2022](https://www.youtube.com/watch?v=rm-1sPQV4zg)
+
+
+## 2 Benchmarks
+### 2.1 Simulators
+
+**TrafficFlow Oriented**
+| Simulator | Released Time | Paper | Other Supplyments | Affiliation |
+|-----------|---------------|-------|-------------------|-------------|
+|[**SUMO**](https://eclipse.dev/sumo/)| 2001 | [Preprint](https://elib.dlr.de/6661/2/dkrajzew_MESM2002.pdf) | - | openMobility
+|[**Flow**](https://flow-project.github.io) | 2018 |[T-RO](https://ieeexplore.ieee.org/document/9489303)|[Documentation](https://flow-project.github.io/tutorial.html)| UC Berkeley
+|[**Highway-env**](https://github.com/Farama-Foundation/HighwayEnv)| 2018 | - |[Documentation](https://highway-env.farama.org/) |Farama FD. 
+|[**CityFlow**](https://github.com/cityflow-project/CityFlow/)| 2019 | [WWW](https://arxiv.org/abs/1905.05217) |[Documentation](https://cityflow-project.github.io/index.html)| UC Berkeley
+|[**BARK**](https://github.com/bark-simulator/bark)| 2020 | [IROS](https://ieeexplore.ieee.org/abstract/document/9341222)|[Documentation](https://bark-simulator.github.io/tutorials/) | fortiss
+|[**MADRaS**](https://github.com/madras-simulator/MADRaS) | 2020 | - |[Documentation](https://github.com/madras-simulator/MADRaS/wiki) | - |
+|[**SMARTS**](https://github.com/huawei-noah/SMARTS)| 2020 | [CoRL](https://proceedings.mlr.press/v155/zhou21a.html) | [Documentation](https://smarts.readthedocs.io/en/latest/) | Noah's Ark Lab |
+|[**MetaDrive**](https://github.com/metadriverse/metadrive)| 2021 |[T-PAMI](https://ieeexplore.ieee.org/abstract/document/9829243) | [Documentation](https://metadrive-simulator.readthedocs.io/en/latest/) | UCLA 
+|[**TBSim**](https://github.com/NVlabs/traffic-behavior-simulation) | 2021 | [ICRA](https://ieeexplore.ieee.org/abstract/document/10161167) | [Pretrained Model](https://drive.google.com/drive/folders/1y3_HO1c721pFrFOYeGGjORV58g6zNEds) | NVIDIA Research
+|[**TorchDriveSim**](https://github.com/inverted-ai/torchdrivesim)|  2021 | [ITSC](https://ieeexplore.ieee.org/document/9565113) | - | Inverted AI
+|[**InterSim**](https://github.com/Tsinghua-MARS-Lab/InterSim) | 2022 | [IROS](https://ieeexplore.ieee.org/abstract/document/9982008) | - | Tsinghua University
+|[**Nocturne**](https://github.com/facebookresearch/nocturne) | 2022 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2022/hash/191e9e721a2748a860714fb23aaf7c5d-Abstract-Datasets_and_Benchmarks.html) | - | Meta
+|[**ScenarioNet**](https://github.com/metadriverse/scenarionet)| 2024 | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0c26a501df8fb919a0350e2df06b5d39-Abstract-Datasets_and_Benchmarks.html) | [Documentation](https://scenarionet.readthedocs.io/en/latest/operations.html) |UCLA
+|[**Waymax**](https://github.com/waymo-research/waymax)| 2024 | [NeurIPS](https://openreview.net/pdf?id=7VSBaP2OXN) | [Documentation](https://waymo-research.github.io/waymax/docs/) | Waymo Research
+
+**Fidelity Oriented**
+| Simulator | Released Time | Paper | Other Supplyments | Affiliation |
+|-----------|---------------|-------|-------------------|-------------|
+|[**TORCS**](https://sourceforge.net/projects/torcs/)| 2000 | - | - | SourceForge
+|[**Gym-TORCS**](https://github.com/ugo-nama-kun/gym_torcs)| 2017 | [Preprint](https://arxiv.org/pdf/1304.1672) | - | UTokyo
+|[**CARLA**](https://github.com/carla-simulator/carla)| 2017 | [CoRL](https://proceedings.mlr.press/v78/dosovitskiy17a.html) | [Documentation](https://carla.readthedocs.io/en/latest/)| Intel Lab
+|[**MACAD**](https://github.com/praveen-palanisamy/macad-gym)| 2020 | [IJCNN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9207663)| - | MicroSoft Research
+|[**ISAAC Sim**](https://developer.nvidia.com/isaac/sim) | 2020 | - | [Documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/index.html) | NVIDIA Research
+|[**ISAAC Lab**](https://github.com/isaac-sim/IsaacLab) | 2024 | [RA-L](https://ieeexplore.ieee.org/abstract/document/10107764) | [Documentation](https://isaac-sim.github.io/IsaacLab/index.html)| NVIDIA Research
+|[**Vista**](https://github.com/vista-simulator/vista) | 2020 |  [RA-L v1.0](https://ieeexplore.ieee.org/abstract/document/8957584) [ICRA v2.0](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9812276) | [Documentation](https://vista.csail.mit.edu/) | MIT CSAIL
+
+
+### 2.2 Datasets
+
+- [**KITTI**](https://www.cvlibs.net/datasets/kitti/) (by KIT, etc., 2013)
+- [**KITTI 360**](https://www.cvlibs.net/datasets/kitti-360/) (by KIT, etc., 2021)
+- [**Visual KITTI**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/) (by Naver Lab, 2016)
+- [**Visual KITTI 2**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/) (by Naver Lab, 2020)
+- [**nuScenes**](https://www.nuscenes.org/) (by Motional)
+- [**nuPlan**](https://www.nuscenes.org/nuplan) (by Motional)
+- [**Waymo Open Dataset**](https://waymo.com/open/) (by Waymo)
+- [**Lyft LV5**](https://github.com/cognitive-robots/lyft_prediction_dataset_tools) (by Lyft)
+- [**INTERACTION Dataset**](https://interaction-dataset.com/) (by UC Berkeley, 2019)
+
+-----------
+*(UPDATE STILL ON THE WAY)*
+
+### 2.3 Competitions
+
+
+## 3. Methodologies
+### 3.1 Fundamental Algorithm
+**Single-Agent RL**
+
+**Multi-Agent RL**
+
+### 3.2 CTDE MARL for Autonomous Driving
+
+
+### 3.3 Decentralied MARL for Autonomous Driving
+
+
+### 3.4 MARL with Social Preference
+
+
+### 3.5 Trust-worthy and Safe MARL
+
+## Citation
+If this repository or our paper is useful for your research and would like to cite it, here is our bibtex.
+```
+@article{zhang2024multi,
+  title={Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey},
+  author={Zhang, Ruiqi and Hou, Jing and Walter, Florian and Gu, Shangding and Guan, Jiayi and R{\"o}hrbein, Florian and Du, Yali and Cai, Panpan and Chen, Guang and Knoll, Alois},
+  journal={arXiv preprint arXiv:2408.09675},
+  year={2024}
+}
+```
+
+## Contact
+If you have any questions or good supplyments for the advanced research, talk, or any form of relevant materials, please contact us and we appreciate for your contribute.
+- **Email** ``1854136@tongji.edu.cn``(primary), and cc to ``richzhang@berkeley.edu``, ``guangchen@tongji.edu.cn``, ``guang@in.tum.de``
+- **Github issues** We would appreciate it if you reported any factual, technical and copyright issue you found in this repository.
