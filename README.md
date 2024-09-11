@@ -5,7 +5,7 @@ Here is all you need to learn the **Multi-Agent Reinforcement Learning (MARL) fo
 For a more comprehensive survey, please look at:
 > [**Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey**](https://arxiv.org/abs/2408.09675)  
 > [Ruiqi Zhang<sup>1,2</sup>](https://ruiqizhang99.github.io), [Jing Hou<sup>1</sup>](https://scholar.google.com/citations?user=8mO6YIMAAAAJ), [Florian Walter<sup>3</sup>](https://scholar.google.com/citations?user=Z3QCbaUAAAAJ), [Shangding Gu<sup>2,4</sup>](https://scholar.google.com/citations?user=E1GCDXUAAAAJ), [Jiayi Guan<sup>1</sup>](https://scholar.google.com/citations?user=PbNNo9cAAAAJ), [Florian Röhrbein<sup>5</sup>](https://scholar.google.com/citations?user=IEOJBbAAAAAJ), [Yali Du<sup>6</sup>](https://scholar.google.com/citations?user=WMlPkOoAAAAJ), [Panpan Cai<sup>7</sup>](https://cindycia.github.io/), [Guang Chen<sup>1,4,*</sup>](https://ispc-group.github.io/), [Alois Knoll<sup>4</sup>](https://scholar.google.com/citations?user=-CA8QgwAAAAJ)  
-> <sup>1</sup>Tongji University; <sup>2</sup>University of California, Berkeley; <sup>3</sup>University of Technology Nuremberg; <sup>4</sup>Technical University of Munich; <sup>5</sup>Chemnitz University of Technology; <sup>6</sup>King's College London; <sup>7</sup>Shanghai Jiao Tong University
+> <sup>1</sup>Tongji University; <sup>2</sup>UC Berkeley; <sup>3</sup>University of Technology Nuremberg; <sup>4</sup>TUM; <sup>5</sup>Chemnitz University of Technology; <sup>6</sup>KCL; <sup>7</sup>SJTU
 
 
 ## 0 Glance at the History
@@ -108,7 +108,6 @@ We have summarized the following over the past decades: (1) autonomous driving s
 | **Dreamer v2** | 2021 | [ICLR](https://arxiv.org/pdf/2010.02193)| [Official](https://github.com/danijar/dreamer)| Google |
 | **Dreamer v3** | 2023 | [ArXiv](https://arxiv.org/abs/2301.04104)| [Official](https://github.com/danijar/dreamerv3)| DeepMind |
 
-**Multi-Agent RL**
 ### 3.2 Multi-Agent Reinforcement Learning (MARL) Algorithms
 | Algorithm | Released Time | Paper | Implementation | Affiliation |
 |-----------|---------------|-------|----------------|-------------|
