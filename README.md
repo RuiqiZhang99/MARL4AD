@@ -10,6 +10,9 @@ For a more comprehensive survey, please look at:
 
 ## 0 Glance at the History
 
+![](figures/timeline.svg)
+We have summarized the following over the past decades: (1) autonomous driving simulators, datasets, and competitions; (2) development trends in hardware and software; (3) single-agent and multi-agent reinforcement learning and related algorithms.
+
 ## 1 Open-Access Learning Materials
 **Books**
 > [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) (by Richard Sutton et. al, MIT press)  
@@ -57,47 +60,84 @@ For a more comprehensive survey, please look at:
 | Simulator | Released Time | Paper | Other Supplyments | Affiliation |
 |-----------|---------------|-------|-------------------|-------------|
 |[**TORCS**](https://sourceforge.net/projects/torcs/)| 2000 | - | - | SourceForge
-|[**Gym-TORCS**](https://github.com/ugo-nama-kun/gym_torcs)| 2017 | [Preprint](https://arxiv.org/pdf/1304.1672) | - | UTokyo
+|[**Gym-TORCS**](https://github.com/ugo-nama-kun/gym_torcs)| 2017 | [ArXiv](https://arxiv.org/pdf/1304.1672) | - | UTokyo
 |[**CARLA**](https://github.com/carla-simulator/carla)| 2017 | [CoRL](https://proceedings.mlr.press/v78/dosovitskiy17a.html) | [Documentation](https://carla.readthedocs.io/en/latest/)| Intel Lab
 |[**MACAD**](https://github.com/praveen-palanisamy/macad-gym)| 2020 | [IJCNN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9207663)| - | MicroSoft Research
 |[**ISAAC Sim**](https://developer.nvidia.com/isaac/sim) | 2020 | - | [Documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/index.html) | NVIDIA Research
-|[**ISAAC Lab**](https://github.com/isaac-sim/IsaacLab) | 2024 | [RA-L](https://ieeexplore.ieee.org/abstract/document/10107764) | [Documentation](https://isaac-sim.github.io/IsaacLab/index.html)| NVIDIA Research
 |[**Vista**](https://github.com/vista-simulator/vista) | 2020 |  [RA-L](https://ieeexplore.ieee.org/abstract/document/8957584) /[ICRA](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9812276) | [Documentation](https://vista.csail.mit.edu/) | MIT CSAIL
+|[**ISAAC Lab**](https://github.com/isaac-sim/IsaacLab) | 2024 | [RA-L](https://ieeexplore.ieee.org/abstract/document/10107764) | [Documentation](https://isaac-sim.github.io/IsaacLab/index.html)| NVIDIA Research
 
 
 ### 2.2 Datasets
-> [**KITTI**](https://www.cvlibs.net/datasets/kitti/) (by KIT, etc., 2013)  
-> [**KITTI 360**](https://www.cvlibs.net/datasets/kitti-360/) (by KIT, etc., 2021)  
-> [**Visual KITTI**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/) (by Naver Lab, 2016)  
-> [**Visual KITTI 2**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/) (by Naver Lab, 2020)  
-> [**nuScenes**](https://www.nuscenes.org/) (by Motional)
-> [**nuPlan**](https://www.nuscenes.org/nuplan) (by Motional)  
-> [**Waymo Open Dataset**](https://waymo.com/open/) (by Waymo)  
-> [**Lyft LV5**](https://github.com/cognitive-robots/lyft_prediction_dataset_tools) (by Lyft)  
-> [**INTERACTION Dataset**](https://interaction-dataset.com/) (by UC Berkeley, 2019) 
-
------------
-*(UPDATE STILL ON THE WAY)*
-
-### 2.3 Competitions
+| Simulator | Released Time | Affiliation |
+|-----------|---------------|-------------|
+|[**KITTI**](https://www.cvlibs.net/datasets/kitti/)| 2013 | KIT |
+|[**Visual KITTI**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/)| 2016 | Naver Lab |
+|[**INTERACTION Dataset**](https://interaction-dataset.com/)| 2019 | UC Berkeley |
+|[**Visual KITTI 2**](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/)| 2020 | Naver Lab |
+|[**KITTI 360**](https://www.cvlibs.net/datasets/kitti-360/)| 2021 | KIT |
+|[**nuScenes**](https://www.nuscenes.org/) | - | Motional |
+|[**nuPlan**](https://www.nuscenes.org/nuplan) | - | Motional |
+|[**Waymo Open Dataset**](https://waymo.com/open/) | - |  Waymo |
+|[**Lyft LV5**](https://github.com/cognitive-robots/lyft_prediction_dataset_tools) | - | Lyft |
 
 
 ## 3. Methodologies
 ### 3.1 Fundamental Algorithm
-**Single-Agent RL**
+**Model-Free RL**
+| Algorithm | Released Time | Paper | Implementation | Affiliation |
+|-----------|---------------|-------|----------------|-------------|
+| **Deep Q-Network** | 2013 | [Preprint](https://people.engr.tamu.edu/guni/csce642/files/dqn.pdf)  | [SB3](https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3/dqn), [Official](https://github.com/google-deepmind/dqn) | DeepMind |
+| **DDPG** | 2015 | [ICML](https://proceedings.mlr.press/v32/lillicrap15.pdf) | [SB3](https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3/ddpg)| DeepMind |
+| **Double DQN** | 2015 | [AAAI](https://arxiv.org/abs/1509.06461) | [SB3](https://github.com/DLR-RM/stable-baselines3)| DeepMind |
+| **Dueling DQN**| 2016 | [ArXiv](https://arxiv.org/abs/1511.06581)| [SB3](https://github.com/DLR-RM/stable-baselines3)| DeepMind |
+| **REINFORCE**  | 1992 | [Machine Learning](https://link.springer.com/article/10.1007/bf00992696) | [Official](https://github.com/rlcode/reinforcement-learning)| Northeastern University     |
+| **TRPO** | 2015 | [ICML](https://proceedings.mlr.press/v37/schulman15.pdf) | [SpinUp](https://github.com/openai/spinningup/tree/master/spinup/algos/pytorch/trpo)| UC Berkeley |
+| **A2C**  | 2016 | [ICML](https://proceedings.mlr.press/v48/mniha16.pdf)| [SB3](https://github.com/DLR-RM/stable-baselines3)| DeepMind |
+| **PPO** | 2017 | [ArXiv](https://arxiv.org/abs/1707.06347)| [SB3](https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3/ppo)| OpenAI |
+| **TD3** | 2018 | [ICML](https://proceedings.mlr.press/v80/fujimoto18a.html)| [SB3](https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3/td3)| McGill University |
+| **SAC** | 2018 | [ICML](https://proceedings.mlr.press/v80/haarnoja18b.html)| [SB3](https://github.com/DLR-RM/stable-baselines3/tree/master/stable_baselines3/sac)| UC Berkeley |
+
+
+**Model-based RL**
+| Algorithm | Released Time | Paper | Implementation | Affiliation |
+|-----------|---------------|-------|----------------|-------------|
+| **MBPO**  | 2019 | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Paper.pdf) | [Official](https://github.com/JannerM/mbpo) | UC Berkeley |
+| **PlaNet** | 2019 | [ICML](https://proceedings.mlr.press/v97/hafner19a.html)| [Official](https://github.com/google-research/planet)| Google |
+| **Dreamer v1** | 2020 | [ICLR](https://openreview.net/forum?id=S1lOTC4tDS)| [Official](https://github.com/danijar/dreamer) | Google |
+| **Dreamer v2** | 2021 | [ICLR](https://arxiv.org/pdf/2010.02193)| [Official](https://github.com/danijar/dreamer)| Google |
+| **Dreamer v3** | 2023 | [ArXiv](https://arxiv.org/abs/2301.04104)| [Official](https://github.com/danijar/dreamerv3)| DeepMind |
 
 **Multi-Agent RL**
+### 3.2 Multi-Agent Reinforcement Learning (MARL) Algorithms
+| Algorithm | Released Time | Paper | Implementation | Affiliation |
+|-----------|---------------|-------|----------------|-------------|
+| **IQL**| 2015 | [ArXiv](https://arxiv.org/pdf/1511.08779) | [Pymarl](https://arxiv.org/pdf/1511.08779) | University of Tartu |
+| **VDN**| 2017 | [ArXiv](https://arxiv.org/pdf/1706.05296)| [Pymarl](https://github.com/oxwhirl/pymarl)| DeepMind |
+| **MADDPG**| 2017 | [NeurIPS](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf) | [Official](https://github.com/openai/maddpg)| OpenAI, UC Berkeley|
+| **COMA**| 2017 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/11794)| [Pymarl](https://github.com/oxwhirl/pymarl) | University of Oxford |
+| **QMIX**| 2018 | [ICML](https://proceedings.mlr.press/v80/rashid18a.html)| [Pymarl](https://github.com/oxwhirl/pymarl) | University of Oxford |
+| **QTRAN**| 2019 | [ICML](https://proceedings.mlr.press/v97/son19a.html)| [Pymarl](https://github.com/oxwhirl/pymarl) | KAIST |
+| **IPPO** | 2019 | [ArXiv](https://arxiv.org/abs/2011.09533)| [epymarl](https://github.com/uoe-agents/epymarl) | University of Oxford |
+| **AlphaStar**| 2019 | [Nature](https://www.nature.com/articles/s41586-019-1724-z)| [Official](https://github.com/google-deepmind/alphastar) | DeepMind | 
+| **MAPPO** | 2021 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2022/hash/9c1535a02f0ce079433344e14d910597-Abstract-Datasets_and_Benchmarks.html)| [Official](https://github.com/zoeyuchao/mappo) | Tsinghua, UC Berkeley|
 
-### 3.2 CTDE MARL for Autonomous Driving
+-----------
+*UPDATE IS STILL ON THE WAY (after Sep.15, 2024)*
+
+### 3.3 CTDE MARL for Autonomous Driving
 
 
-### 3.3 Decentralied MARL for Autonomous Driving
+### 3.4 Decentralied MARL for Autonomous Driving
 
 
-### 3.4 MARL with Social Preference
+### 3.5 MARL with Social Preference
 
 
-### 3.5 Trust-worthy and Safe MARL
+### 3.6 Trust-worthy and Safe MARL
+
+
+
 
 ## Citation
 If this repository or our paper is useful for your research and would like to cite it, here is our bibtex.
